@@ -40,3 +40,6 @@ section img {
   display: table;
   clear: both;
 }
+section text {
+    font-size: 30px;
+}
