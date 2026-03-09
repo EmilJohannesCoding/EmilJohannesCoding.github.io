@@ -59,6 +59,10 @@ section img {
     display: block;
     margin: auto;
 }
+.logo {
+    max-height: 200px;
+    max-width: 300px;
+}
 footer {
     width: 100%;
     background-color: rgb(51, 31, 8);
@@ -67,8 +71,8 @@ footer {
     margin-top: 80px;
 }
 footer img {
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
 }
 .item {
     flex: 1 1 100px;   
@@ -117,4 +121,8 @@ section p {
 }
 .column {
     flex: 1 1 50px;
+}
+footer {
+    margin-top: 0px;
 }}
+
