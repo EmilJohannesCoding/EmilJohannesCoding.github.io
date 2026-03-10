@@ -69,10 +69,12 @@ footer {
     color: white;
     text-align: center;
     margin-top: 80px;
+    font-size: 20px;
 }
 footer img {
     width: 18px;
     height: 18px;
+    background-color: white;
 }
 .item {
     flex: 1 1 100px;   
