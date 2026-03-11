@@ -31,7 +31,18 @@ nav a:hover {
 }
 
 /*TEXT and IMG*/
-
+.skip-link {
+    position: absolute;
+    left: -9999px;
+}
+.skip-link:focus {
+    left: 10px;
+    top: 10px;
+    background: black;
+    color: white;
+    padding: 8px;
+    z-index: 1000;
+}
 .column {
     flex: 1 1 500px;   
     padding: 50px;
